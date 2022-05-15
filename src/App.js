@@ -1,6 +1,12 @@
+import FeedbackItem from "./components/FeedbackItem";
+
 function App() {
     return (
-        <h1>Hello World</h1>
+        <>
+            <div className="container">
+                <FeedbackItem />
+            </div>
+        </>
     )
 }
 
